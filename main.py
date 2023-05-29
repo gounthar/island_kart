@@ -38,9 +38,6 @@ def run_game():
       key_press = None
     time.sleep(sleep_sec)
   
-  # print('\n' + '=' * num_left + f' {sim.num_steps:03d} ' + '='*num_right)
-  # sim.display_course()
-  # sim.map.kart.print_status()
   return
 
 def on_key_press(key):
@@ -57,5 +54,5 @@ def main():
       listener.join()
 
 if __name__ == '__main__':
-  random.seed(1)
+  # random.seed(1)
   main()
