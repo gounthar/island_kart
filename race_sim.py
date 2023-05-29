@@ -29,7 +29,7 @@ class RaceSim:
     self.map.rows[0] = new_row
 
     # Create coin
-    coin_thresh = 0.3
+    coin_thresh = 0.2
     if random.uniform(0,1) < coin_thresh:
       self.make_item("coin")
 
