@@ -1,0 +1,9 @@
+# This is the .gitpod.yml configuration file for Gitpod.
+# Gitpod is a service that provides ready-to-code development environments in the cloud.
+
+# The 'image' field specifies the Docker image to use for the workspace.
+# The 'file' field under 'image' points to the Dockerfile that defines the Docker image.
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: /workspace/island_kart/bin/python /workspace/island_kart/main.py
